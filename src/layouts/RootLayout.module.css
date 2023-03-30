@@ -1,0 +1,12 @@
+.navbar {
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(171, 204, 193);
+}
+
+.navButtons {
+  margin-left: auto;
+  display: flex;
+  gap: 10px;
+}
