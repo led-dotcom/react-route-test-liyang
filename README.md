@@ -73,7 +73,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### change directory to the project root path
 
-cd D:\study\front end zixue\react\router-test
+cd D:\study\front end zixue\react\react-route-test-6.9.0
 
 ### use the json data file to set up json server, port as 8000
 
