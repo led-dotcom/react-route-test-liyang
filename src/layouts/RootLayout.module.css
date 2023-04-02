@@ -2,7 +2,7 @@
   padding: 0 10px;
   display: flex;
   align-items: center;
-  background-color: rgb(171, 204, 193);
+  border: #ffffff 2px solid;
 }
 
 .navButtons {

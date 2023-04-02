@@ -5,6 +5,10 @@ const Page1Section1 = () => {
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum optio
         illo sunt aliquid. Architecto a natus dignissimos ratione maxime hic.
+        <br />
+        <br />
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum optio
+        illo sunt aliquid. Architecto a natus dignissimos ratione maxime hic.
       </p>
     </div>
   );

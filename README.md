@@ -68,3 +68,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### open cmd to set up json server
+
+### change directory to the project root path
+
+cd D:\study\front end zixue\react\router-test
+
+### use the json data file to set up json server, port as 8000
+
+json-server --watch data/db.json --port 8000

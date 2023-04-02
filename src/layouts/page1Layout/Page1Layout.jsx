@@ -1,7 +1,10 @@
-const Page1 = () => {
+import { NavLink, Outlet } from "react-router-dom";
+import Button from "@mui/material/Button";
+
+const Page1Layout = () => {
   return (
     <div>
-      <h1>Page1</h1>
+      <h1>Nested Routes</h1>
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, nemo
         fugit non accusantium quaerat accusamus veniam. Sint dolore voluptas
@@ -15,8 +18,21 @@ const Page1 = () => {
         esse unde perspiciatis, impedit nemo. Dolorum labore dolore similique ab
         deserunt nihil voluptas repellat facere, ipsam atque, voluptatem magnam.
       </p>
+      <div style={{ display: "flex", gap: "10px" }}>
+        <NavLink to="/page-1/section-1">
+          <Button variant="outlined" color="warning">
+            Section 1
+          </Button>
+        </NavLink>
+        <NavLink to="/page-1/section-2">
+          <Button variant="outlined" color="warning">
+            Section 2
+          </Button>
+        </NavLink>
+      </div>
+      <Outlet />
     </div>
   );
 };
 
-export default Page1;
+export default Page1Layout;

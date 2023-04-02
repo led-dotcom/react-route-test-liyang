@@ -1,3 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+:root {
+  --primary: #bc4123;
+  --secondary: #3f4c78;
+}
+
 body {
   margin: 0;
+  padding: 20px;
+  font-family: "Poppins";
+  background: var(--secondary);
+}
+
+.active {
+  background: #202843;
+  border-radius: 5px;
 }
